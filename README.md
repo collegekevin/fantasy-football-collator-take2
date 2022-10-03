@@ -1,0 +1,3 @@
+We want to create a single page website that the user can enter their fantasy football players and then be able to see their stats. Using the information that the webpage gives them they can make informed decisions on who to possibly cut from their team. When they cut a player from their team they will then be able to delete the player from our website. We want to have statistics like total season points and current weeks points displayed on the player card. The user will be able to toggle between statistic options with a button. 
+
+Our goal for this website would be to allow a user to track players on one site so they do not have to filter between teams and websites. 
