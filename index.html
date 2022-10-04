@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css" />
@@ -16,5 +16,50 @@
       <input type="text" name="team" id="team" />
       <input type="submit" value="Submit" />
     </form>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Fantasy Football Collator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class='main flex'>
+      <h1 class='padding margin'>Fantasy Football Collator</h1>
+
+      <div class="margin flex">
+        <h4 class='center'>Add Player</h4>
+        <form id='player-form' class="padding margin border-round border-grey">
+          <input type="text" name="firstName" placeholder="first name" value="" />
+          <input type="text" name="lastName" placeholder="last name" value="" />
+          <input type="text" name="team" placeholder="team" value="" />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+
+      <div class="margin flex">
+        <h4 class='center'>Players</h4>
+        <table class='margin' border="1">
+          <thead class='blue'>
+            <tr class='padding'>
+              <th class='padding center'>First Name</th>
+              <th class='padding center'>Last Name</th>
+              <th class='padding center'>Team</th>
+              <th class='padding center'>Ru Yards</th>
+              <th class='padding center'>Re Yards</th>
+              <th class='padding center'>TDs</th>
+              <th class='padding center'>Delete</th>
+            </tr>
+          </thead>
+          <tbody id="table-body">
+          </tbody>
+        </table>
+      </div>
+    </div>
   </body>
 </html>
