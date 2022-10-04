@@ -1,0 +1,166 @@
+
+ {"dogs":
+  [
+   {
+   "id": 1,
+   "firstName": "Nick",
+   "lastName": "Chubb",
+   "team": "Browns",
+   "rushingYards" : "459",
+   "receivingYards": "37",
+   "touchdowns": "5"
+   }, {
+   "id": 2,
+   "firstName": "Saquon",
+   "lastName": "Barkley",
+   "team": "Giants",
+   "rushingYards" : "463",
+   "receivingYards": "107",
+   "touchdowns": "2"
+   }, {
+   "id": 3,
+   "firstName": "Jamal",
+   "lastName": "Williams",
+   "team": "Lions",
+   "rushingYards" : "463",
+   "receivingYards": "107",
+   "touchdowns": "2"
+   }, {
+   "id": 4,
+   "firstName":"Clyde",
+   "lastName": "Edwards-Helaire",
+   "team": "Chiefs",
+   "rushingYards" : "463",
+   "receivingYards": "107",
+   "touchdowns": "2"
+   }, {
+   "id": 5,
+   "firstName": "Derrick",
+   "lastName": "Henry",
+   "team": "Titans",
+   "rushingYards" : "463",
+   "receivingYards": "107",
+   "touchdowns": "2"
+   }, {
+   "id": 6,
+   "firstName":"Miles",
+   "lastName": "Sanders",
+   "team": "Eagles",
+   "rushingYards" : "463",
+   "receivingYards": "107",
+   "touchdowns": "2"
+   }, {
+   "id": 7,
+   "firstName": "Cordarelle",
+   "lastName": "Patterson",
+   "team": "Falcons",
+   "rushingYards" : "463",
+   "receivingYards": "107",
+   "touchdowns": "2"
+   }, {
+   "id": 8,
+   "firstName": "Josh",
+   "lastName": "Jacobs",
+   "team": "Raiders",
+   "rushingYards" : "463",
+   "receivingYards": "107",
+   "touchdowns": "2"
+   }, {
+   "id": 9,
+   "firstName": "Khalil",
+   "lastName": "Herbert",
+   "team": "Bears",
+   "rushingYards" : "463",
+   "receivingYards": "107",
+   "touchdowns": "2"
+   }, {
+   "id": 10,
+   "firstName": "James",
+   "lastName": "Robinson",
+   "team": "Jaguars",
+   "rushingYards" : "463",
+   "receivingYards": "107",
+   "touchdowns": "2"
+   }, {
+   "id": 11,
+   "firstName": "Christian",
+   "lastName": "McCaffrey",
+   "team": "Panthers",
+   "rushingYards" : "463",
+   "receivingYards": "107",
+   "touchdowns": "2"
+   }, {
+   "id": 12,
+   "firstName": "Aaron",
+   "lastName": "Jones",
+   "team": "Packers",
+   "rushingYards" : "463",
+   "receivingYards": "107",
+   "touchdowns": "2"
+   }, {
+   "id": 13,
+   "firstName": "Austin",
+   "lastName": "Ekeler",
+   "team": "Chargers",
+   "rushingYards" : "463",
+   "receivingYards": "107",
+   "touchdowns": "2"
+   }, {
+   "id": 14,
+   "firstName": "Dameon",
+   "lastName": "Pierce",
+   "team": "Texans",
+   "rushingYards" : "463",
+   "receivingYards": "107",
+   "touchdowns": "2"
+   }, {
+   "id": 15,
+   "firstName": "Damien",
+   "lastName": "Harris",
+   "team": "Patriots",
+   "rushingYards" : "463",
+   "receivingYards": "107",
+   "touchdowns": "2"
+   }, {
+   "id": 16,
+   "firstName": "D'Andre",
+   "lastName": "Swift",
+   "team": "Lions",
+   "rushingYards" : "463",
+   "receivingYards": "107",
+   "touchdowns": "2"
+   }, {
+   "id": 17,
+   "firstName": "Rashaad",
+   "lastName": "Penny",
+   "team": "Seahawks",
+   "rushingYards" : "463",
+   "receivingYards": "107",
+   "touchdowns": "2"
+   }, {
+   "id": 18,
+   "firstName": "Jonathan",
+   "lastName": "Taylor",
+   "team": "Colts",
+   "rushingYards" : "463",
+   "receivingYards": "107",
+   "touchdowns": "2"
+   }, {
+   "id": 19,
+   "firstName": "Joe",
+   "lastName": "Mixon",
+   "team": "Bengals",
+   "rushingYards" : "463",
+   "receivingYards": "107",
+   "touchdowns": "2"
+   }, {
+   "id": 20,
+   "firstName": "Leonard",
+   "lastName": "Fournette",
+   "team": "Buccaneers",
+   "rushingYards" : "463",
+   "receivingYards": "107",
+   "touchdowns": "2"
+   }
+  ]
+ }
