@@ -71,9 +71,9 @@ form h4 {
 .flex {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
   /* might want to consider changing the align-items above to center */
-  /* text-align: center; - also might want to consider this */
+  text-align: center; 
 }
 
 h1, h2, h3, h4 {
