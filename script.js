@@ -61,21 +61,21 @@ const createDomPlayer = player => {
     // Add event listener to edit button
 
 
-const addPlayerInfoToForm = player => {
-    // Step 1
-    const form = document.getElementById('player-form');
+// const addPlayerInfoToForm = player => {
+//     // Step 1
+//     const form = document.getElementById('player-form');
 
-    const children = form.children;
+//     const children = form.children;
 
-    const firstNameInput = children[0];
-    const lastNameInput = children[1];
-    const teamInput = children[2];
+//     const firstNameInput = children[0];
+//     const lastNameInput = children[1];
+//     const teamInput = children[2];
 
-    // Step 2
-    firstNameInput.value = player.firstName;
-    lastNameInput.value = player.lastName;
-    teamInput.value = player.team;
-};
+//     // Step 2
+//     firstNameInput.value = player.firstName;
+//     lastNameInput.value = player.lastName;
+//     teamInput.value = player.team;
+// };
 
 
 

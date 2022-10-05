@@ -1,23 +1,4 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <link rel="stylesheet" href="style.css" />
-    <title>Fantasy Football Collator</title>
-  </head>
-  <body>
 
-    <form id="new-player">
-      <h4>Add New Player</h4>
-      <label for="first-name">First Name: </label>
-      <input type="text" name="first-name" id="first-name" />
-      <label for="last-name">Last Name: </label>
-      <input type="text" name="last-name" id="last-name" />
-      <label for="team">Team: </label>
-      <input type="text" name="team" id="team" />
-      <input type="submit" value="Submit" />
-    </form>
-  </body>
-</html> -->
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -33,11 +14,11 @@
       <h1 class='padding margin'>Fantasy Football Collator</h1>
 
       <div class="margin flex">
-        <h4 class='center'>Add Player</h4>
+        <h4 class='center'>Find Player</h4>
         <form id='player-form' class="padding margin border-round border-grey">
-          <input type="text" name="firstName" placeholder="first name" value="" />
-          <input type="text" name="lastName" placeholder="last name" value="" />
-          <input type="text" name="team" placeholder="team" value="" />
+          <input type="text" name="name" placeholder="Player Name" value="" />
+          <!-- <input type="text" name="lastName" placeholder="last name" value="" />
+          <input type="text" name="team" placeholder="team" value="" /> -->
           <input type="submit" value="Submit" />
         </form>
       </div>
@@ -47,13 +28,12 @@
         <table class='margin' border="1">
           <thead class='blue'>
             <tr class='padding'>
-              <th class='padding center'>First Name</th>
-              <th class='padding center'>Last Name</th>
+              <th class='padding center'>Name</th>
               <th class='padding center'>Team</th>
-              <th class='padding center'>Ru Yards</th>
-              <th class='padding center'>Re Yards</th>
-              <th class='padding center'>TDs</th>
-              <th class='padding center'>Delete</th>
+              <th class='padding center'>Position</th>
+              <th class='padding center'>Projected Points</th>
+              <th class='padding center'>Projected Points Low</th>
+              <th class='padding center'>Projected Points High</th>
             </tr>
           </thead>
           <tbody id="table-body">
