@@ -2,22 +2,22 @@
 <html lang="en" dir="ltr">
  <head>
   <meta charset="utf-8" />
-  <title>WKC Dog Show</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-  <script src="./src/index.js"></script>
-  <link rel="stylesheet" href="./assets/style.css" />
-  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script%7COpen+Sans" rel="stylesheet" />
+  <title>Fantasy Football Player Tracker</title>
+  <script defer src="style.css"></script>
+  <link rel="stylesheet" href="style.css" />
  </head>
  <body>
   <div class='main flex'>
    <h1 class='padding margin'>My Fantasy Football Players</h1>
    <div class="margin flex">
-    <h4 class='center'>Add Player</h4>
+    <h4 class='center'>Find Player</h4>
     <form id='player-form' class="padding margin border-round border-grey">
-     <input type="text" name="firstName" placeholder="first name" value="" />
-     <input type="text" name="lastName" placeholder="last name" value="" />
-     <input type="text" name="team" placeholder="team" value="" />
-     <input type="submit" value="Submit" />
+     <input type="text" name="Name" placeholder="Name" value="" />
+     <!-- <input type="text" name="team" placeholder="team" value="" />
+     <input type="text" name="projectedPoints" placeholder="projected points" value="" />
+     <input type="text" name="projectedPointsLow" placeholder="projected points low" value="" />
+     <input type="text" name="projectedPointsHigh" placeholder="projected points high" value="" />
+     <input type="submit" value="Submit" /> -->
     </form>
    </div>
    <div class="margin flex">
@@ -25,13 +25,12 @@
     <table class='margin' border="1">
      <thead class='blue'>
       <tr class='padding'>
-       <th class='padding center'>First Name</th>
-       <th class='padding center'>Last Name</th>
+       <th class='padding center'>Name</th>
        <th class='padding center'>Team</th>
-       <th class='padding center'>Ru Yards</th>
-       <th class='padding center'>Re Yards</th>
-       <th class='padding center'>TDs</th>
-       <th class='padding center'>Delete</th>
+       <th class='padding center'>Position</th>
+       <th class='padding center'>Projected Points</th>
+       <th class='padding center'>Projected Low</th>
+       <th class='padding center'>Projected High</th>
       </tr>
      </thead>
      <tbody id="table-body">

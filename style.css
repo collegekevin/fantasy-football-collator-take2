@@ -1,40 +1,53 @@
+
+
 .main {
   height: 100vh;
   font-family: 'Open Sans', sans-serif;
- }
- .flex {
+}
+
+.flex {
   display: flex;
   flex-direction: column;
-  align-items: left;
- }
- h1, h2, h3, h4 {
-  font-family: 'Geneva';
+  align-items: center;
+  /* might want to consider changing the align-items above to center */
+  text-align: center; 
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Geneva',
   margin-bottom: 0px;
- }
- th {
+}
+
+th {
   font-weight: bold;
- }
- .center {
+}
+
+.center {
   text-align: center;
- }
- .padding {
+}
+
+.padding {
   padding: 10px;
- }
- .margin {
+}
+
+.margin {
   margin: 20px;
- }
- .blue {
-  background-color: #0A8142;
- }
- .yellow {
+}
+
+.blue {
+  background-color: #0a8142;
+}
+
+.yellow {
   background-color: #FFD700;
- }
- .border-round {
+}
+
+.border-round {
   border-radius: 10px;
- }
- .border-grey {
+}
+
+.border-grey {
   border-style: solid;
   border-width: 1px;
   border-color: grey;
- }
- 
+}
